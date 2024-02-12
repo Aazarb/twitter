@@ -1,6 +1,8 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://127.0.0.1:27017/twitter')
-    .then(()=> console.log('connexion db is ok !'))
-    .catch(err => console.log(err));
-
+mongoose
+  .connect(
+    'mongodb+srv://alex:qwe@cluster0-l4izx.gcp.mongodb.net/twitter?retryWrites=true'
+  )
+  .then(() => console.log('connexion db ok !'))
+  .catch((err) => console.log(err));

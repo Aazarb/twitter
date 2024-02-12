@@ -8,16 +8,6 @@
   max-width:300px;
 }
 
-.b {
-  border:1px solid red;
-}
-
-.b1 {
-  border:1px solid green;
-}
-.btn-tweet {
-  border-radius: 30px;
-}
 .tweet-element {
   border-radius: 0px;
   font-size:14px;
@@ -26,4 +16,20 @@
 
 .tweet-element:first-child {
   border-top:1px solid #ddd;
+}
+
+.btn-tweet {
+  border-radius: 30px;
+}
+
+.btn-danger {
+  font-size:10px;
+}
+
+.b {
+  border:1px solid red;
+}
+
+.b1 {
+  border:1px solid green;
 }
